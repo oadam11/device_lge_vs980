@@ -21,3 +21,13 @@ TARGET_KERNEL_CONFIG := slim_vs980_defconfig
 TARGET_OTA_ASSERT_DEVICE := vs980,g2,galbi
 
 G2_DTS_TARGET := msm8974-g2-vzw
+
+# Custom Kernel Toolchain
+TARGET_GCC_VERSION_ARM := 4.9-sm
+# Graphite optimizations
+SYMMETRY := true
+GRAPHITE_OPTS := true
+STRICT_ALIASING := true
+# Create changelog
+VALIDUS_CHANGELOG := true
+

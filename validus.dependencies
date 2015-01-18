@@ -1,6 +1,6 @@
 [
  {
-   "repository":  "SlimRoms/device_lge_g2-common",
+   "repository":  "oadam11/device_lge_g2-common",
    "target_path": "device/lge/g2-common",
    "branch":      "lp5.0"
  },
